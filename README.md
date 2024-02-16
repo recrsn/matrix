@@ -10,6 +10,17 @@ Anyscale Endpoints, vLLM and any other LLMs that support the OpenAI API.
 - Supports multiple LLMs
 - Manages and stores reusable prompts
 
+## Installation
+
+Use [pipx](https://pipx.pypa.io/stable/) to install matrix.
+
+```
+pipx install git+https://github.com/recrsn/matrix.git
+```
+To install a specific version, use the `@` syntax.
+
+This will install the `matrix` command line tool in an isolated virtual environment.
+
 ## Quick Start
 
 Register a LLM provider and run a prompt.
